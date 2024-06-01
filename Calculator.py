@@ -1,15 +1,19 @@
 class Calculator:
     
     def Addition(self, number1, number2):
+        """Return the sum of two numbers."""
         return number1 + number2
     
     def Subtraction(self, number1, number2):
+        """Return the difference of two numbers."""
         return number1 - number2
     
     def Multiplication(self, number1, number2):
+        """Return the product of two numbers."""
         return number1 * number2
     
     def Division(self, number1, number2):
+        """Return the quotient of two numbers."""
         if number2 == 0:
             raise ZeroDivisionError('Number2 cannot be Zaro, as Denominator cannot be Zero')
         
