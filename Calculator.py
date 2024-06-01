@@ -22,8 +22,9 @@ class Calculator:
         
     
 calculator = Calculator()
-print("Input 'exit' or '0' to quit the loop.")
+
 while True:
+    print("Input 'exit' or '0' to quit the loop.")
     exp = input("Enter expression: ")
     if exp.lower() == 'exit' or exp == '0':
         break
